@@ -8,14 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		84DE3E472942522100199C48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE3E462942522100199C48 /* AppDelegate.swift */; };
-		84DE3E492942522100199C48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE3E482942522100199C48 /* SceneDelegate.swift */; };
-		84DE3E4B2942522100199C48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE3E4A2942522100199C48 /* ViewController.swift */; };
 		84DE3E4E2942522100199C48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DE3E4C2942522100199C48 /* Main.storyboard */; };
 		84DE3E502942522400199C48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DE3E4F2942522400199C48 /* Assets.xcassets */; };
 		84DE3E532942522400199C48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DE3E512942522400199C48 /* LaunchScreen.storyboard */; };
 		84DE3E5E2942522500199C48 /* MediatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE3E5D2942522500199C48 /* MediatorTests.swift */; };
 		84DE3E682942522500199C48 /* MediatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE3E672942522500199C48 /* MediatorUITests.swift */; };
 		84DE3E6A2942522500199C48 /* MediatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE3E692942522500199C48 /* MediatorUITestsLaunchTests.swift */; };
+		84DE3E7C2942526D00199C48 /* MediatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE3E7B2942526D00199C48 /* MediatorVC.swift */; };
+		84DE3E7F29425C0F00199C48 /* Mediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE3E7E29425C0F00199C48 /* Mediator.swift */; };
+		84DE3E8229425C3400199C48 /* ConcreteMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE3E8129425C3400199C48 /* ConcreteMediator.swift */; };
+		84DE3E8529425C5600199C48 /* BaseComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE3E8429425C5600199C48 /* BaseComponent.swift */; };
+		84DE3E8729425C6400199C48 /* Component1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE3E8629425C6400199C48 /* Component1.swift */; };
+		84DE3E8929425C7000199C48 /* Component2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE3E8829425C7000199C48 /* Component2.swift */; };
+		84DE3E8C29425CC100199C48 /* NewsFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE3E8B29425CC100199C48 /* NewsFeedVC.swift */; };
+		84DE3E8F29425CF200199C48 /* NewsDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE3E8E29425CF200199C48 /* NewsDetailVC.swift */; };
+		84DE3E9229425D1400199C48 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE3E9129425D1400199C48 /* ProfileVC.swift */; };
+		84DE3E94294260A600199C48 /* ScreenUpdatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE3E93294260A600199C48 /* ScreenUpdatable.swift */; };
+		84DE3E96294260BC00199C48 /* ScreenMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE3E95294260BC00199C48 /* ScreenMediator.swift */; };
+		84DE3E98294260D200199C48 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE3E97294260D200199C48 /* News.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +48,6 @@
 /* Begin PBXFileReference section */
 		84DE3E432942522100199C48 /* Mediator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mediator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DE3E462942522100199C48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84DE3E482942522100199C48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84DE3E4A2942522100199C48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84DE3E4D2942522100199C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84DE3E4F2942522400199C48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84DE3E522942522400199C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +57,18 @@
 		84DE3E632942522500199C48 /* MediatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DE3E672942522500199C48 /* MediatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediatorUITests.swift; sourceTree = "<group>"; };
 		84DE3E692942522500199C48 /* MediatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84DE3E7B2942526D00199C48 /* MediatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediatorVC.swift; sourceTree = "<group>"; };
+		84DE3E7E29425C0F00199C48 /* Mediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mediator.swift; sourceTree = "<group>"; };
+		84DE3E8129425C3400199C48 /* ConcreteMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteMediator.swift; sourceTree = "<group>"; };
+		84DE3E8429425C5600199C48 /* BaseComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseComponent.swift; sourceTree = "<group>"; };
+		84DE3E8629425C6400199C48 /* Component1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component1.swift; sourceTree = "<group>"; };
+		84DE3E8829425C7000199C48 /* Component2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component2.swift; sourceTree = "<group>"; };
+		84DE3E8B29425CC100199C48 /* NewsFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedVC.swift; sourceTree = "<group>"; };
+		84DE3E8E29425CF200199C48 /* NewsDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailVC.swift; sourceTree = "<group>"; };
+		84DE3E9129425D1400199C48 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		84DE3E93294260A600199C48 /* ScreenUpdatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenUpdatable.swift; sourceTree = "<group>"; };
+		84DE3E95294260BC00199C48 /* ScreenMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenMediator.swift; sourceTree = "<group>"; };
+		84DE3E97294260D200199C48 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +120,10 @@
 			isa = PBXGroup;
 			children = (
 				84DE3E462942522100199C48 /* AppDelegate.swift */,
-				84DE3E482942522100199C48 /* SceneDelegate.swift */,
-				84DE3E4A2942522100199C48 /* ViewController.swift */,
+				84DE3E7A2942526100199C48 /* Example */,
+				84DE3E792942525A00199C48 /* Concept */,
+				84DE3E772942524D00199C48 /* ViewControllers */,
+				84DE3E762942524500199C48 /* Storyboards */,
 				84DE3E4C2942522100199C48 /* Main.storyboard */,
 				84DE3E4F2942522400199C48 /* Assets.xcassets */,
 				84DE3E512942522400199C48 /* LaunchScreen.storyboard */,
@@ -125,6 +147,126 @@
 				84DE3E692942522500199C48 /* MediatorUITestsLaunchTests.swift */,
 			);
 			path = MediatorUITests;
+			sourceTree = "<group>";
+		};
+		84DE3E762942524500199C48 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		84DE3E772942524D00199C48 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				84DE3E782942525500199C48 /* MediatorVC */,
+				84DE3E8A29425CB200199C48 /* NewsFeedVC */,
+				84DE3E8D29425CE500199C48 /* NewsDetailVC */,
+				84DE3E9029425D0700199C48 /* ProfileVC */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		84DE3E782942525500199C48 /* MediatorVC */ = {
+			isa = PBXGroup;
+			children = (
+				84DE3E7B2942526D00199C48 /* MediatorVC.swift */,
+			);
+			path = MediatorVC;
+			sourceTree = "<group>";
+		};
+		84DE3E792942525A00199C48 /* Concept */ = {
+			isa = PBXGroup;
+			children = (
+				84DE3E7D29425C0300199C48 /* Interface */,
+				84DE3E8029425C2C00199C48 /* Mediator */,
+				84DE3E8329425C4600199C48 /* Components */,
+			);
+			path = Concept;
+			sourceTree = "<group>";
+		};
+		84DE3E7A2942526100199C48 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				84DE3E99294260DD00199C48 /* Interface */,
+				84DE3E9A294260E300199C48 /* Mediator */,
+				84DE3E9B294260EE00199C48 /* Structures */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		84DE3E7D29425C0300199C48 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				84DE3E7E29425C0F00199C48 /* Mediator.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		84DE3E8029425C2C00199C48 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				84DE3E8129425C3400199C48 /* ConcreteMediator.swift */,
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
+		84DE3E8329425C4600199C48 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				84DE3E8429425C5600199C48 /* BaseComponent.swift */,
+				84DE3E8629425C6400199C48 /* Component1.swift */,
+				84DE3E8829425C7000199C48 /* Component2.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		84DE3E8A29425CB200199C48 /* NewsFeedVC */ = {
+			isa = PBXGroup;
+			children = (
+				84DE3E8B29425CC100199C48 /* NewsFeedVC.swift */,
+			);
+			path = NewsFeedVC;
+			sourceTree = "<group>";
+		};
+		84DE3E8D29425CE500199C48 /* NewsDetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				84DE3E8E29425CF200199C48 /* NewsDetailVC.swift */,
+			);
+			path = NewsDetailVC;
+			sourceTree = "<group>";
+		};
+		84DE3E9029425D0700199C48 /* ProfileVC */ = {
+			isa = PBXGroup;
+			children = (
+				84DE3E9129425D1400199C48 /* ProfileVC.swift */,
+			);
+			path = ProfileVC;
+			sourceTree = "<group>";
+		};
+		84DE3E99294260DD00199C48 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				84DE3E93294260A600199C48 /* ScreenUpdatable.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		84DE3E9A294260E300199C48 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				84DE3E95294260BC00199C48 /* ScreenMediator.swift */,
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
+		84DE3E9B294260EE00199C48 /* Structures */ = {
+			isa = PBXGroup;
+			children = (
+				84DE3E97294260D200199C48 /* News.swift */,
+			);
+			path = Structures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +400,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84DE3E4B2942522100199C48 /* ViewController.swift in Sources */,
+				84DE3E9229425D1400199C48 /* ProfileVC.swift in Sources */,
+				84DE3E8529425C5600199C48 /* BaseComponent.swift in Sources */,
+				84DE3E8F29425CF200199C48 /* NewsDetailVC.swift in Sources */,
+				84DE3E7F29425C0F00199C48 /* Mediator.swift in Sources */,
+				84DE3E96294260BC00199C48 /* ScreenMediator.swift in Sources */,
+				84DE3E8229425C3400199C48 /* ConcreteMediator.swift in Sources */,
+				84DE3E94294260A600199C48 /* ScreenUpdatable.swift in Sources */,
 				84DE3E472942522100199C48 /* AppDelegate.swift in Sources */,
-				84DE3E492942522100199C48 /* SceneDelegate.swift in Sources */,
+				84DE3E8929425C7000199C48 /* Component2.swift in Sources */,
+				84DE3E8C29425CC100199C48 /* NewsFeedVC.swift in Sources */,
+				84DE3E7C2942526D00199C48 /* MediatorVC.swift in Sources */,
+				84DE3E98294260D200199C48 /* News.swift in Sources */,
+				84DE3E8729425C6400199C48 /* Component1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,8 +595,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,9 +603,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Mediator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -471,8 +625,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,9 +633,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Mediator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
