@@ -26,6 +26,7 @@
 		84DE3E94294260A600199C48 /* ScreenUpdatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE3E93294260A600199C48 /* ScreenUpdatable.swift */; };
 		84DE3E96294260BC00199C48 /* ScreenMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE3E95294260BC00199C48 /* ScreenMediator.swift */; };
 		84DE3E98294260D200199C48 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE3E97294260D200199C48 /* News.swift */; };
+		84DE3E9E2942626C00199C48 /* info.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 84DE3E9D2942626C00199C48 /* info.rtfd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		84DE3E93294260A600199C48 /* ScreenUpdatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenUpdatable.swift; sourceTree = "<group>"; };
 		84DE3E95294260BC00199C48 /* ScreenMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenMediator.swift; sourceTree = "<group>"; };
 		84DE3E97294260D200199C48 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		84DE3E9D2942626C00199C48 /* info.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = info.rtfd; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,9 +126,8 @@
 				84DE3E792942525A00199C48 /* Concept */,
 				84DE3E772942524D00199C48 /* ViewControllers */,
 				84DE3E762942524500199C48 /* Storyboards */,
-				84DE3E4C2942522100199C48 /* Main.storyboard */,
 				84DE3E4F2942522400199C48 /* Assets.xcassets */,
-				84DE3E512942522400199C48 /* LaunchScreen.storyboard */,
+				84DE3E9C2942625F00199C48 /* info */,
 				84DE3E542942522400199C48 /* Info.plist */,
 			);
 			path = Mediator;
@@ -152,6 +153,8 @@
 		84DE3E762942524500199C48 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				84DE3E4C2942522100199C48 /* Main.storyboard */,
+				84DE3E512942522400199C48 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -269,6 +272,14 @@
 			path = Structures;
 			sourceTree = "<group>";
 		};
+		84DE3E9C2942625F00199C48 /* info */ = {
+			isa = PBXGroup;
+			children = (
+				84DE3E9D2942626C00199C48 /* info.rtfd */,
+			);
+			path = info;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -375,6 +386,7 @@
 			files = (
 				84DE3E532942522400199C48 /* LaunchScreen.storyboard in Resources */,
 				84DE3E502942522400199C48 /* Assets.xcassets in Resources */,
+				84DE3E9E2942626C00199C48 /* info.rtfd in Resources */,
 				84DE3E4E2942522100199C48 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
